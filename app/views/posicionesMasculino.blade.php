@@ -1,0 +1,203 @@
+@extends('plantilla')
+
+
+@section('title') 
+	Posiciones
+@stop
+
+
+@section('imagen-titulo') 
+{{ HTML::image('assets/media/titulos/img_tit_posiciones.jpg', 'Torneo',array('class' => 'img-responsive','width' => '178', 'height' => '75') )}}
+@stop
+
+@section('content') 
+
+    <table  class="table table-bordered letraBlanca">
+        
+        <thead>
+            <tr>
+                <th>POS</th>
+                <th>EQUIPO</th>
+                <th>PUNTOS</th>
+                <th>PJ</th>
+                <th>PG</th>
+                <th>PE</th>
+                <th>PP</th>
+                <th>GF</th>
+                <th>GC</th>
+                <th>DIF</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>SAN ROQUE</td>
+                <td>6</td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>15</td>
+                <td>8</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>MATADORES</td>
+                <td>6</td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>10</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>TAQUITO F.C.</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+                <td>0</td>
+                <td>1</td>
+                <td>10</td>
+                <td>3</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>ZENON A.C.</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+                <td>0</td>
+                <td>1</td>
+                <td>10</td>
+                <td>9</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>LA ROJA MECANICA</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+                <td>0</td>
+                <td>1</td>
+                <td>9</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>DK2</td>
+                <td>3</td>
+                <td>3</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>9</td>
+                <td>7</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>REAL BANIL</td>
+                <td>3</td>
+                <td>3</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>5</td>
+                <td>6</td>
+                <td>-1</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>ASTON BIRRA</td>
+                <td>3</td>
+                <td>3</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>5</td>
+                <td>8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>TITANES</td>
+                <td>2</td>
+                <td>3</td>
+                <td>0</td>
+                <td>2</td>
+                <td>1</td>
+                <td>10</td>
+                <td>11</td>
+                <td>-1</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>IVESS</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+                <td>10</td>
+                <td>12</td>
+                <td>-2</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>LA ROTONDA</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+                <td>7</td>
+                <td>9</td>
+                <td>-2</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>LA BANDA</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+                <td>6</td>
+                <td>8</td>
+                <td>-2</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>LA PERLA</td>
+                <td>1</td>
+                <td>3</td>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+                <td>7</td>
+                <td>11</td>
+                <td>-4</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>F.U.</td>
+                <td>0</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>3</td>
+                <td>2</td>
+                <td>13</td>
+                <td>-11</td>
+            </tr>
+        </tbody>
+    </table>
+                               
+@stop

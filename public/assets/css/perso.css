@@ -1,0 +1,32 @@
+.fondo{
+	background-color: #101010;
+	
+	border-radius: 10px;	
+}
+
+.borde{
+	border: 1px #e4e4e4 solid;
+	border-radius: 4px;
+
+
+}
+
+.centro{text-align:center;}
+
+.letraBlanca{
+	color: #ffffff;
+}
+
+.lineaBlanca{
+	 border-bottom: 1px solid #eee;
+}
+
+.fondo2{
+	background-color: #101010;
+	border:solid 2px black;	
+	border-radius: 10px;	
+}
+
+.tamanoLetra{
+	font-size: medium;
+}
