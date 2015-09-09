@@ -22,5 +22,5 @@
                                 Saludos, 
                                 </p>
                                 <p class="letraBlanca">
-                                Organización LdV.</p>
+                                Organización LIga del valle.</p>
 @stop
